@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Put your description here.">
+    <title>Multi Page Website Template For School</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/19755cae29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ================== Start Header Section ================== -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="/images/logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>About US</h1>
+        </div>
+    </section>
+
+    <!-- ================== End Header Section ================== -->
+
+    <!-- ================== Start About-US Section ================== -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="col-about">
+                <h2>We are the World's Largest University</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis harum adipisci est esse maiores ut alias amet distinctio non eaque mollitia iusto ad
+                    aliquam aperiam sit,
+                    quidem ratione nam incidunt! Dolorum repudiandae voluptate corporis facilis fugiat corrupti tenetur
+                    id soluta?
+                    Reiciendis harum adipisci est esse maiores ut alias amet distinctio non eaque mollitia iusto ad
+                    aliquam aperiam sit.
+                </p>
+                <a href="#">Explore Now</a>
+            </div>
+            <div class="col-about">
+                <img src="/images/about.jpg">
+            </div>
+        </div>
+    </section>
+    
+    <!-- ================== End About-US Section ================== -->
+
+    <!-- ================== Start Footer Section ================== -->
+
+    <section class="footer">
+        <div class="text">
+            <h4>About US</h4>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quos porro iusto, error minus maxime necessitatibus aut atque voluptatum delectus adipisci!
+            </P>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Made With <i class="fas fa-heart"></i> by Zineddine-ch</p>
+        </div>
+
+    </section>
+
+    <!-- ================== End Footer Section ================== -->
+
+
+
+
+
+
+
+
+    <!-- ================== Javascript For Toggle Menu ================== -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-60%";
+        }
+    </script>
+</body>
+
+</html>

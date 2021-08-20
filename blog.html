@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Put your description here.">
+    <title>Multi Page Website Template For School</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/19755cae29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ================== Start Header Section ================== -->
+
+    <section id="blog" class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="/images/logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Our Certificate & Online Programs For 2021</h1>
+        </div>
+    </section>
+
+    <!-- ================== End Header Section ================== -->
+
+    <!-- ================== Start Blog Section ================== -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/certificate.jpg" alt="image certificate">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur, dignissimos at. At nihil impedit,
+                    officia animi pariatur accusamus dolore aliquam?
+                </p>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit doloribus laborum rerum explicabo numquam?
+                    Ipsum accusamus repellat qui voluptates amet ex minima ducimus inventore delectus?
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Illum ratione fuga laborum, ab eaque suscipit consectetur eligendi ut nemo,
+                    error deserunt nulla quisquam,
+                    vero sit corporis facilis ex itaque minus reprehenderit inventore perspiciatis.
+                    Reiciendis, ab!
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis, quidem magni.
+                    Quod nisi saepe eveniet doloribus quaerat repellat ducimus quam distinctio,
+                    esse iure voluptas natus.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="email" name="mail" placeholder="Your Email">
+                        <textarea name="comment" rows="5" placeholder="Your Comment"></textarea>
+                        <input type="submit" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <p>Post Cotegories</p>
+                <div class="cotegories">
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>20</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>35</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>10</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>08</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>18</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>13</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================== End Blog Section ================== -->
+
+    <!-- ================== Start Footer Section ================== -->
+
+    <section class="footer">
+        <div class="text">
+            <h4>About US</h4>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quos porro iusto, error minus maxime necessitatibus aut atque voluptatum delectus adipisci!
+            </P>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Made With <i class="fas fa-heart"></i> by Zineddine-ch</p>
+        </div>
+
+    </section>
+    
+    <!-- ================== End Footer Section ================== -->
+
+
+
+
+
+
+
+
+    <!-- ================== Javascript For Toggle Menu ================== -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-60%";
+        }
+    </script>
+</body>
+
+</html>

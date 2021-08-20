@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Put your description here.">
+    <title>Multi Page Website Template For School</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/19755cae29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ================== Start Header Section ================== -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="/images/logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Our Courses</h1>
+        </div>
+    </section>
+
+    <!-- ================== End Header Section ================== -->
+
+    <!-- ================== Start Course Section ================== -->
+
+    <section class="course">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus reprehenderit temporibus itaque.
+        </p>
+
+        <div class="row">
+            <div class="col-course">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam maxime rem incidunt molestias ullam voluptatibus nulla asperiores illum cum omnis.
+                </p>
+            </div>
+            <div class="col-course">
+                <h3>Degree</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam maxime rem incidunt molestias ullam voluptatibus nulla asperiores illum cum omnis.
+                </p>
+            </div>
+            <div class="col-course">
+                <h3>Post Graduation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam maxime rem incidunt molestias ullam voluptatibus nulla asperiores illum cum omnis.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================== End Course Section ================== -->
+
+    <!-- ================== Start Facilities Section ================== -->
+
+    <section class="facilities">
+        <h2>Our Facilities</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus reprehenderit temporibus itaque.
+        </p>
+
+        <div class="row">
+            <div class="col-facilities">
+                <div class="image">
+                    <img src="./images/library.png" alt="image library">
+                </div>
+                <h4>World Class library</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eius mollitia.</p>
+            </div>
+            <div class="col-facilities">
+                <div class="image">
+                    <img src="./images/basketball.png" alt="image basketball">
+                </div>
+                <h4>Largest Play Ground</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eius mollitia.</p>
+            </div>
+            <div class="col-facilities">
+                <div class="image">
+                    <img src="./images/cafeteria.png" alt="image cafeteria">
+                </div>
+                <h4>Tasty and Healthy Food</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eius mollitia.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ================== End Facilities Section ================== -->
+
+    <!-- ================== Start Footer Section ================== -->
+
+    <section class="footer">
+        <div class="text">
+            <h4>About US</h4>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quos porro iusto, error minus maxime necessitatibus aut atque voluptatum delectus adipisci!
+            </P>
+           <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Made With <i class="fas fa-heart"></i> by Zineddine-ch</p>
+        </div>
+
+    </section>
+
+    <!-- ================== End Footer Section ================== -->
+
+
+
+
+
+
+
+
+    <!-- ================== Javascript For Toggle Menu ================== -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-60%";
+        }
+    </script>
+</body>
+
+</html>
